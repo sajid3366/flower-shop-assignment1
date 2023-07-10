@@ -1,8 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
+.btn-primary {
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+    cursor: pointer;
+    color: white;
+}
+
 /* this is for banner section  */
-.
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 200px 0px;
+    background-color: #fbdada;
+
+
+}
+
+.banner-content {
+
+    width: 600px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.banner-image {
+    width: 400px;
+    
+}
