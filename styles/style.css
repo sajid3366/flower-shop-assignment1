@@ -73,7 +73,7 @@
 }
 
 .feature-image-container {
-    
+
     margin: 20px 0;
 
 }
@@ -111,4 +111,26 @@
 
 .feature-list {
     list-style: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #272727;
+}
+
+/* this is for support section  */
+.support-container {
+    margin: 0 200px 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    text-align: center;
+}
+
+.support-container p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
 }
