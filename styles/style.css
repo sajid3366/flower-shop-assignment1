@@ -37,11 +37,78 @@
 }
 
 .banner-description {
+    color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     margin: 20px 0;
 }
 
 .banner-image {
     width: 400px;
+
+}
+
+/* this is for feature section  */
+
+.feature-container {
+    margin: 100px 200px;
+    /* padding: 50px ; */
+    text-align: center;
+}
+
+.feature-title {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+    text-align: center;
+    margin-left: 260px;
+    margin-bottom: 30px;
+}
+
+.feature-image-container {
     
+    margin: 20px 0;
+
+}
+
+.feature-image {
+    gap: 100px;
+    width: 300px;
+    height: 400px;
+    padding: 50px 30px 0;
+
+}
+
+.pink-tiulip {
+    margin-right: 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.buke {
+    margin-right: 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.yellow-tiulip {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.feature-image-name {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.feature-list {
+    list-style: none;
 }
