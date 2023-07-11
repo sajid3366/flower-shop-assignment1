@@ -6,7 +6,7 @@
 
 .btn-primary {
     font-size: 20px;
-    padding: 10px 30px;
+    padding: 20px 30px;
     border: 0;
     border-radius: 8px;
     background: #E55473;
@@ -133,4 +133,30 @@
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
+}
+
+/* this is for hot deal section  */
+.deal-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 100px 0;
+    padding: 50px 200px;
+    text-align: center;
+
+}
+.deal-content{
+    width: 570px;
+}
+.deal-title{
+    color: #272727;
+font-size: 35px;
+font-weight: 800;
+}
+.deal-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+line-height: 30px;
+margin: 24px 0 32px;
 }
