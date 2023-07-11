@@ -195,6 +195,50 @@
     width: 270px;
 }
 
+/* this is for about us section  */
+.about-upper-title{
+    text-align: center;
+    margin: 50px 0 20px ;
+    font-size: 45px;
+    font-weight: 800;
+}
+.about-upper-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 450px;
+    width: 600px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin: 20px 0 100px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 10px 50px;
+}
+.about-container img{
+    width: 400px;
+    height: 400px;
+}
+.about-content{
+    width: 600px;
+}
+.about-title{
+    font-size: 35px;
+    
+}
+.about-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+
+}
+
 /* this is for latest deal section  */
 .latest-container {
     background-image: url('../images/Rectangle\ 9.png');
